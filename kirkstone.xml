@@ -15,7 +15,7 @@
   <remote fetch="https://git.yoctoproject.org/"                         name="yocto"        />
   .git
   
-  <default sync-j="16"/>
+  <default sync-j="1"/>
 
   <project name="poky"                  path="poky"                          remote="yocto"    revision="kirkstone"          />
   <project name="meta-atmel"            path="poky/meta-atmel"               remote="atmel"    revision="kirkstone"          />
@@ -44,9 +44,3 @@
   <project name="meta-laird-cp"         path="poky/meta-laird-cp"            remote="laird"    revision="lrd-10.0.0.x"       />
   <project name="meta-rust"             path="poky/meta-rust"                remote="rust"     revision="master"             />
 </manifest>
-
-
-#   <project name="meta-arago-distro"     path="poky/meta-arago-distro"        remote="yocto"  revision="kirkstone"          />
-#   <project name="meta-jupyter"          path="poky/meta-jupyter"             remote="yocto"    revision="kirkstone"          />
-#  <project name="meta-som"              path="poky/meta-som"                 remote="yocto"    revision="kirkstone"          />
-
