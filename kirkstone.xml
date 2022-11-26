@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/aws4embeddedlinux"                  name="amazon"       />
+  <remote fetch="https://github.com/jonmason/"                          name="arm"          />
   <remote fetch="https://github.com/linux4sam/"                         name="atmel"        />
   <remote fetch="https://github.com/beagleboard/"                       name="beagle"       />
   <remote fetch="https://github.com/emagii/"                            name="emagii"       />
@@ -14,10 +15,12 @@
   <remote fetch="https://github.com/Xilinx/"                            name="xilinx"       />
   <remote fetch="https://github.com/meta-qt5/"                          name="qt5"          />
   <remote fetch="https://git.yoctoproject.org/"                         name="yocto"        />
-  
+
+
   <default sync-j="1"/>
 
   <project name="poky"                  path="poky"                          remote="yocto"    revision="kirkstone"          />
+  <project name="meta-arm"              path="poky/meta-arm"                 remote="arm"      revision="kirkstone"          />
   <project name="meta-atmel"            path="poky/meta-atmel"               remote="atmel"    revision="kirkstone"          />
   <project name="meta-aws"              path="poky/meta-aws"                 remote="amazon"   revision="kirkstone"          />
   <project name="meta-browser"          path="poky/meta-browser"             remote="oss"      revision="master"             />
