@@ -5,8 +5,8 @@ repo init -u  git@github.com:emagii/yocto-emagii-distribution.git -m kirkstone.x
 repo sync --no-clone-bundle
 repo forall -pc 'git checkout --track $REPO_REMOTE/$REPO_RREV'
 
-sed -i 's/honister/honister kirkstone/g' poky/meta-rust/conf/layers.conf
-echo "LAYERSERIES_COMPAT_laird-cp = \"kirkstone\""  >> poky/meta-laird-cp/meta-laird-cp/layer.conf
+sed -i 's/honister/honister kirkstone/g' poky/meta-rust/conf/layer.conf
+echo "LAYERSERIES_COMPAT_laird-cp = \"kirkstone\""  >> poky/meta-laird-cp/meta-laird-cp/conf/layer.conf
 
 chmod 775 oe-init-emagii-sdk
 source ./oe-init-emagii-sdk
