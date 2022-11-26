@@ -12,28 +12,25 @@
   <remote fetch="https://github.com/meta-rust/"                         name="rust"         />
   <remote fetch="https://github.com/sbabic/"                            name="sbabic"       />
   <remote fetch="https://github.com/Xilinx/"                            name="xilinx"       />
+  <remote fetch="https://github.com/meta-qt5/"                          name="qt5"          />
   <remote fetch="https://git.yoctoproject.org/"                         name="yocto"        />
-  .git
   
   <default sync-j="1"/>
 
   <project name="poky"                  path="poky"                          remote="yocto"    revision="kirkstone"          />
   <project name="meta-atmel"            path="poky/meta-atmel"               remote="atmel"    revision="kirkstone"          />
   <project name="meta-aws"              path="poky/meta-aws"                 remote="amazon"   revision="kirkstone"          />
-  <project name="meta-beagleboard"      path="poky/meta-beagleboard"         remote="beagle"   revision="kirkstone"          />
   <project name="meta-browser"          path="poky/meta-browser"             remote="oss"      revision="master"             />
   <project name="meta-clang"            path="poky/meta-clang"               remote="kraj"     revision="kirkstone"          />
-  <project name="meta-emagii"           path="poky/meta-emagii"              remote="emagii"   revision="kirkstone"          />
-  <project name="meta-emagii"           path="sources/meta-emagii"           remote="emagii"   revision="kirkstone">
+  <project name="meta-emagii"           path="poky/meta-emagii"              remote="emagii"   revision="kirkstone">
     <copyfile dest="oe-init-emagii-sdk" src="scripts/oe-init-emagii-sdk"  />
   </project>
   <project name="meta-intel"            path="poky/meta-intel"               remote="yocto"    revision="kirkstone"          />
   <project name="meta-java"             path="poky/meta-java"                remote="yocto"    revision="kirkstone"          />
   <project name="meta-mingw"            path="poky/meta-mingw"               remote="yocto"    revision="kirkstone"          />
-  <project name="meta-openamp"          path="poky/meta-openamp"             remote="xilinx"   revision="kirkstone"          />
   <project name="meta-openembedded"     path="poky/meta-openembedded"        remote="oe"       revision="kirkstone"          />
   <project name="meta-python2"          path="poky/meta-python2"             remote="oe"       revision="kirkstone"          />
-  <project name="meta-qt5"              path="poky/meta-qt5"                 remote="yocto"    revision="kirkstone"          />
+  <project name="meta-qt5"              path="poky/meta-qt5"                 remote="qt5"      revision="kirkstone"          />
   <project name="meta-raspberrypi"      path="poky/meta-raspberrypi"         remote="yocto"    revision="kirkstone"          />
   <project name="meta-security"         path="poky/meta-security"            remote="yocto"    revision="kirkstone"          />
   <project name="meta-swupdate"         path="poky/meta-swupdate"            remote="sbabic"   revision="kirkstone"          />
