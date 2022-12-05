@@ -35,6 +35,7 @@
   <project name="meta-python2"          path="poky/meta-python2"             remote="oe"       revision="kirkstone"          />
   <project name="meta-qt5"              path="poky/meta-qt5"                 remote="qt5"      revision="kirkstone"          />
   <project name="meta-raspberrypi"      path="poky/meta-raspberrypi"         remote="yocto"    revision="kirkstone"          />
+  <project name="meta-rpi64"            path="poky/meta-rpi64"               remote="emagii"   revision="kirkstone"          />
   <project name="meta-security"         path="poky/meta-security"            remote="yocto"    revision="kirkstone"          />
   <project name="meta-swupdate"         path="poky/meta-swupdate"            remote="sbabic"   revision="kirkstone"          />
   <project name="meta-ti"               path="poky/meta-ti"                  remote="yocto"    revision="kirkstone"          />
