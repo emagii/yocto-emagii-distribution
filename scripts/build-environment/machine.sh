@@ -31,6 +31,6 @@ bone|bb|beaglebone)
 esac
 echo	"Selecting MACH=$MACH"
 
-sed -i 's/^MACHINE.*/MACHINE ?? = "unknown"/g' conf/local.conf
+sed -i 's/^MACHINE.*/MACHINE ??= "unknown"/g' conf/local.conf
 sed -i "s/unknown/$MACH/g"  conf/local.conf
 
