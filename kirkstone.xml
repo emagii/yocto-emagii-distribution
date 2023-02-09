@@ -23,6 +23,7 @@
   <project name="meta-arm"              path="poky/meta-arm"                 remote="arm"      revision="kirkstone"          />
   <project name="meta-atmel"            path="poky/meta-atmel"               remote="atmel"    revision="kirkstone"          />
   <project name="meta-aws"              path="poky/meta-aws"                 remote="amazon"   revision="kirkstone"          />
+  <project name="meta-binutils"         path="poky/meta-binutils"            remote="emagii"   revision="kirkstone"          />
   <project name="meta-browser"          path="poky/meta-browser"             remote="oss"      revision="master"             />
   <project name="meta-clang"            path="poky/meta-clang"               remote="kraj"     revision="kirkstone"          />
   <project name="meta-emagii"           path="poky/meta-emagii"              remote="emagii"   revision="kirkstone">
