@@ -10,4 +10,4 @@ echo "LAYERSERIES_COMPAT_summit-radio = \"kirkstone\""  >> poky/meta-laird-cp/me
 chmod 775 oe-init-emagii-sdk
 source ./oe-init-emagii-sdk
 # ln -sf ../build/tmp/work-shared/<machine>/kernel-source components/kernel-source
-# rsync -av ../scripts/build-scripts/ poky/build
+rsync -av ../scripts/build-scripts/ .
