@@ -1,0 +1,13 @@
+label: dos
+label-id: 0x00000000
+device: /dev/sdc
+unit: sectors
+sector-size: 512
+
+/dev/sdc1 : start=        2048, size=     6291456, type=e
+/dev/sdc2 : start=     6293504, size=   115849216, type=5
+/dev/sdc5 : start=     6295552, size=       65536, type=83
+/dev/sdc6 : start=     6363136, size=     4194304, type=c
+/dev/sdc7 : start=    10559488, size=    33554432, type=83
+/dev/sdc8 : start=    44115968, size=    33554432, type=83
+/dev/sdc9 : start=    77672448, size=    44470272, type=83
