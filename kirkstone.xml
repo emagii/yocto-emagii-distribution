@@ -45,4 +45,6 @@
   <project name="meta-map-sheriffco"    path="poky/meta-map-sheriffco"       remote="emagii"   revision="kirkstone"          />
   <project name="meta-laird-cp"         path="poky/meta-laird-cp"            remote="laird"    revision="lrd-10.0.0.x"       />
   <project name="meta-rust"             path="poky/meta-rust"                remote="rust"     revision="master"             />
+  <project name="raspberry-pi-sd-contents" path="SD"                         remote="emagii"   revision="master"             />
+  
 </manifest>
